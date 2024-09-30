@@ -20,12 +20,23 @@ age = st.text_input("How old are you?")
 date_of_birth = st.text_input("What is your date of birth?")
 img_file_buffer = st.camera_input("Please take a picture to verify your ID")
 
+iimg_file_buffer = st.camera_input("Take a picture")
+
 if img_file_buffer is not None:
-    # To read image file buffer as bytes:
-    bytes_data = img_file_buffer.getvalue()
-    # Check the type of bytes_data:
-    # Should output: <class 'bytes'>
-    st.write(type(bytes_data))
+    # To read image file buffer as a PIL Image:
+    img = Image.open(img_file_buffer)
+
+    # To convert PIL Image to numpy array:
+    img_array = np.array(img)
+
+    # Check the type of img_array:
+    # Should output: <class 'numpy.ndarray'>
+    st.write(type(img_array))
+
+    # Check the shape of img_array:
+    # Should output shape: (height, width, channels)
+    st.write(img_array.shape)
+
 
 List_of_sports = st.text_input("Sports you have played")
 Been_to_the_club = st.checkbox("I have visited")

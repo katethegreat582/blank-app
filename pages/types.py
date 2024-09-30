@@ -64,7 +64,3 @@ choice = st.radio(
 )
 what_type_is_it(choice)
 
-picture = st.camera_input("Take a picture")
-
-if picture:
-    st.image(picture)
