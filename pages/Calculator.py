@@ -13,7 +13,7 @@ num2 = st.number_input("num2", value=5)
 num2 = int(num2)
 
 st.button("Reset", type="primary")
-if st.button("Submit"):
+if st.button("Add"):
     st.write("Answer =",  num1+num2)
 
 
