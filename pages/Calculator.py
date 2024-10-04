@@ -17,6 +17,8 @@ if st.button("Add"):
     st.write("Answer =",  num1+num2)
 
 
+st.write("##")
+
 #This does subtraction
 st.caption("Subtraction")
 num3 = st.number_input("num3", value=6)
@@ -28,6 +30,10 @@ num4 =int(num4)
 st.button("Clear", type="primary")
 if st.button("Subtract"):
     st.write("Answer =",  num3-num4)
+
+
+
+st.write("##")
 
 
 #This does multiplcation
@@ -42,6 +48,11 @@ st.button("Clean", type="primary")
 if st.button("Multiply"):
     st.write("Answer =",  num5*num6)
 
+
+st.write("##")
+
+
+
 #This does division
 st.caption("Division")
 num7 = st.number_input("num7", value=10)
@@ -52,4 +63,4 @@ num8 =int(num8)
 
 st.button("Remove", type="primary")
 if st.button("Divide"):
-    st.write("Answer =",  num7*num8)
+    st.write("Answer =",  num7/num8)
