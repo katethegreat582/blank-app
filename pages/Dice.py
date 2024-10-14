@@ -16,3 +16,5 @@ num_sides = st.slider("How many sides should your dice have?", min_value=2, max_
 roll = get_roll(num_sides)
 
 st.write("Roll is:", roll)
+
+st.button("Reroll")
