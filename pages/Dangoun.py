@@ -45,11 +45,25 @@ room = rooms[0]
 st.write(room)
 
 st.write("Print out the 3rd room:")
+room = rooms[2]
+st.write(room)
 
 st.write("Print out the last room:")
+room = rooms[-1]
+st.write(room)
 
 st.write("Print out the treasures in the 2nd room:")
+room_treasure = rooms[1]["treasures"]
+st.write(room_treasure)
 
 st.write("Print out the monsters in the 4th room:")
+room_monster = rooms[3]["monsters"]
+st.write(room_monster)
 
 st.write("Print out the second secret in the 5th room:")
+room_secret_second_part = rooms[-2]["secrets": (1)]
+st.write(room_secret_second_part)
+
+
+
+#student["Favorite color"]
