@@ -38,31 +38,13 @@ rooms = [
     },
 ]
 
-st.title("Welcome to the dungeon! 👹")
-
-st.write("Print out the first room:")
-room = rooms[0]
-st.write(room)
-
-st.write("Print out the 3rd room:")
-room = rooms[2]
-st.write(room)
-
-st.write("Print out the last room:")
-room = rooms[-1]
-st.write(room)
-
-st.write("Print out the treasures in the 2nd room:")
-room_treasure = rooms[1]["treasures"]
-st.write(room_treasure)
-
-st.write("Print out the monsters in the 4th room:")
-room_monster = rooms[3]["monsters"]
-st.write(room_monster)
+st.write("I went up to my rich great uncle for the weekend. It changed my life forever.  ")
+st.write("As soon as I walked through the door over the cricking wooden bords, anceint viking helmets, razer sharp axes, and dust covered paintings stuck right out at me")
+st.write("trembling with both fear and cold I understood that this would be the most dark, cold, and miserbarble experience of my life!!")
 
 
-st.write("Print out the second secret in the 5th room:")
-rooms[5]["secrets"][1]
-
-
-
+room_number =1
+for room in rooms:
+    treasures = ", ", join(room ["treasures"])
+    st.write (f"Room number {room_number} had a bunch of treasures:")
+    room_number = room_number + 1
