@@ -1,23 +1,17 @@
 import streamlit as st
 
-output = st.checkbox("Brush your teeth")
-st.write(output)
+st.title("The Ultimate Wake up To Do List!")
 
-todos = {
-    "Brush your teeth": False,
-    "Comb your hair": False,
-    "Wake up": True,
-}
 
-st.write(todos)
+brush_teeth = st.checkbox("Brush teeth")
+Take_a_shower = st.checkbox("Take a shower")
+Make_Bed = st.checkbox("Make Bed")
+Complete_SkinCare = st.checkbox("Complete skin care routine")
+Dress = st.checkbox("Get dressed")
+
 
 if st.button("Add a new item"):
-    ...
+    title = st.text_input("Extra Items to complete", "")
+    
 
-if "brushed_my_teeth" not in st.session_state:
-    st.session_state["brushed_my_teeth"] = ["Way to Go"]
 
-if st.button("Completed brushing teeth"):
-    st.session_state["brushed_my_teeth"].append("Way to go!")
-
-st.write(str(st.session_state))
