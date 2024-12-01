@@ -9,7 +9,7 @@ st.write("We hope that you can complete the following and become filled with joy
 image_urls = [
 
      ('https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg'),
-     ('https://en.wikipedia.org/wiki/File:American_Eskimo_Dog.jpg'),
+     ('https://upload.wikimedia.org/wikipedia/commons/4/47/American_Eskimo_Dog.jpg'),
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
   
 ]
