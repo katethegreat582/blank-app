@@ -13,11 +13,12 @@ image_urls = [
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
   
 ]
-rand_image=random.randint(0,len(image_urls)-1)
 
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
     st.button("Reset", type="primary")
+    rand_image=random.randint(0,len(image_urls)-1)
+    st.write(rand_image)
     st.link_button("show dog Photos:", image_urls[rand_image])
 
 
