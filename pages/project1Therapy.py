@@ -13,15 +13,16 @@ image_urls = [
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
 #     ("https://google.com")   
 ]
-rand_image=random.randint(0,len(image_urls))
-print (rand_image)
+rand_image=random.randint(0,len(image_urls)-1)
+#st.write (rand_image)
+#st.write(len(image_urls))
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
     st.button("Reset", type="primary")
 #    if st.link_button("show dog Photos:", image_urls):
 #    st.link_button("show dog Photos:", "https://www.google.com")
 #    st.link_button("show dog Photos:", "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg")
-    st.link_button("show dog Photos:", image_urls[rand_image])
+#    st.link_button("show dog Photos:", image_urls[rand_image])
 
 
 
