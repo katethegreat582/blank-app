@@ -13,7 +13,7 @@ image_urls = [
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
 #     ("https://google.com")   
 ]
-rand_image=random.randinit(0,len(image_urls))
+rand_image=random.randint(0,len(image_urls))
 print (rand_image)
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
