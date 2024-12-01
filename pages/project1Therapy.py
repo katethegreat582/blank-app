@@ -10,6 +10,7 @@ image_urls = [
 #    (https://example.com/dog1.jpg),
 #    (https://example.com/dog2.jpg)
      ('https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg'),
+     ('https://en.wikipedia.org/wiki/File:American_Eskimo_Dog.jpg'),
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
 #     ("https://google.com")   
 ]
