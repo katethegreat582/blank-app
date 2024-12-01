@@ -13,7 +13,7 @@ image_urls = [
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
 #     ("https://google.com")   
 ]
-rand_image=random.radinit(0,len(image_urls))
+rand_image=random.randinit(0,len(image_urls))
 print (rand_image)
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
@@ -23,7 +23,7 @@ with st.chat_message("user"):
 #    st.link_button("show dog Photos:", "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg")
     st.link_button("show dog Photos:", image_urls[rand_image])
 
-#            st.write("(%s)" % image_urls)
+
 
 
 
