@@ -1,5 +1,4 @@
 import streamlit as st
-import random
 
 st.title("Welcome to Therapy with Felica and Kate!")
 
@@ -17,9 +16,9 @@ image_urls = [
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
     st.button("Reset", type="primary")
-    rand_image=random.randint(0,len(image_urls)-1)
-    st.write(rand_image)
-    st.link_button("show dog Photos:", image_urls[rand_image])
+    st.link_button("show dog Photo 1:", image_urls[0])
+    st.link_button("show dog Photo 2:", image_urls[1])
+    st.link_button("show dog Photo 3:", image_urls[-1])
 
 
 
