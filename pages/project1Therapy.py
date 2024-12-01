@@ -14,7 +14,7 @@ image_urls = [
 #     ("https://google.com")   
 ]
 rand_image=random.radinit(0,len(image_urls))
-
+print (rand_image)
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
     st.button("Reset", type="primary")
