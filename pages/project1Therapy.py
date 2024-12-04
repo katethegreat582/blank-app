@@ -46,6 +46,6 @@ with Tim_Keller:
 
 st.write("Below are soothing sounds that help release anxiety and stress")
 
-st.audio("cat-purr.mp3", format="audio/mpeg", loop=True)
+st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
 
 
