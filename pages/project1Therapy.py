@@ -12,7 +12,7 @@ image_urls = [
      ('https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg')
   
 ]
-st.write("####")
+st.write("##")
 
 st.write("If you want to experience a moment of joy click the button and see some amazing dog pictures!!")
 
