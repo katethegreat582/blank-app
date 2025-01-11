@@ -9,3 +9,9 @@ def get_image(num):
     st.image(response.json()["sprites"]["front_default"], use_column_width=True)
 num = st.slider("", 1, 130, 25)
 get_image(num)
+
+
+
+
+
+
