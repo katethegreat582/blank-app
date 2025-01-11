@@ -3,6 +3,7 @@ st.title("My Super Crazy Adventure at my sevenths cousins great uncles son Gru's
 
 
 
+
 rooms = [
     {
         "treasures": ["gold coin", "gem"],
